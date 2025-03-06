@@ -1,0 +1,36 @@
+body {
+    background-color: #111;
+    margin: 0px;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "ROND" 0;
+    animation: rainbow 5s infinite linear;
+}
+
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}
+
+#fireworks {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    z-index: 2;
+}
+

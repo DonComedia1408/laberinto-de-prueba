@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+    <title>Mi juego</title>
+</head>
+<body>
+    <div id="final">
+        <a href="final.html" class="button" id="boton-final">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            PULSAME
+        </a>
+    </div>
+    <div id="contenedor">
+        <span id="circulo"></span>
+        <img src="llaves/llave_azul.png" id="llave-azul" class="llaves" style="top: 60px; left: 405px;">
+        <img src="candados/candado_azul.svg" id="candado-azul" class="candados" style="top: 220px; left: 215px;">
+        <img src="llaves/llave_roja.png" id="llave-roja" class="llaves" style="top: 60px; left: 605px;">
+        <img src="candados/candado_rojo.svg" id="candado-rojo" class="candados" style="top: 776px; left: 15px;">
+        <img src="llaves/llave_verde.png" id="llave-verde" class="llaves" style="top: 660px; left: 220px;">
+        <img src="candados/candado_verde.svg" id="candado-verde" class="candados" style="top: 630px; left: 795px;">
+        <img src="llaves/llave_amarilla.png" id="llave-amarilla" class="llaves" style="top: 850px; left: 795px;">
+        <img src="candados/candado_amarillo.svg" id="candado-amarillo" class="candados" style="top: 430px; left: 1000px;">
+        <img src="portales/portal_azul.svg" id="portal-azul-1" class="portales" style="top: 796px; left: 405px;">
+        <img src="portales/portal_azul.svg" id="portal-azul-2" class="portales" style="top: 420px; left: 20px;">
+        <img src="portales/portal_rojo.svg" id="portal-rojo-1" class="portales" style="top: 420px; left: 1360px;">
+        <img src="portales/portal_rojo.svg" id="portal-rojo-2" class="portales" style="top: 220px; left: 1165px;">
+        <img src="portales/portal_verde.svg" id="portal-verde-1" class="portales" style="top: 640px; left: 1545px;">
+        <img src="portales/portal_verde.svg" id="portal-verde-2" class="portales" style="top: 806px; left: 1165px;">
+        <img src="portales/portal_amarillo.svg" id="portal-amarillo-1" class="portales" style="top: 430px; left: 795px;">
+        <img src="portales/portal_amarillo.svg" id="portal-amarillo-2" class="portales" style="top: 220px; left: 1545px;">
+        <img src="portales/portal_meta.svg" id="portal-meta" class="portales" style="top: 20px; left: 1545px;">
+        <img src="botones/boton_aqua_desactivado.svg" id="boton-aqua" class="botones" style="top: 796px; left: 595px;">
+        <img src="botones/boton_naranja_desactivado.svg" id="boton-naranja" class="botones" style="top: 240px; left: 1355px;">
+        <img src="bloqueos/bloqueo_aqua_cerrado.svg" id="bloqueo-aqua" class="bloqueos" style="top: 205px; left: 795px;">
+        <img src="bloqueos/bloqueo_naranja_cerrado.svg" id="bloqueo-naranja" class="bloqueos" style="top: 802px; left: 950px;">
+        <p id="texto-candado" class="textos">Busca la llave de color correspondiente para desbloquear.</p>
+        <p id="texto-portal" class="textos">Los portales te llevan a donde su repectivo color este.</p>
+        <div class="linea" style="top: 200px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 200px; left: 190px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 200px; left: 380px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 200px; left: 380px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 400px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="left: 570px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 400px; left: 190px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 600px; left: 190px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 600px; left: 190px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 400px; left: 380px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 200px; left: 570px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 400px; left: 570px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 800px; left: 570px; width: 10px; height: 156px;"></div>
+        <div class="linea" style="top: 600px; left: 380px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 800px; left: 380px; width: 10px; height: 156px;"></div>
+        <div class="linea" style="top: 200px; left: 570px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 800px; left: 760px; width: 10px; height: 156px;"></div>
+        <div class="linea" style="top: 400px; left: 760px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 400px; left: 760px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 400px; left: 950px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 200px; left: 760px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 200px; left: 1140px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 200px; left: 1140px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 400px; left: 1330px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="left: 1520px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 200px; left: 1520px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 200px; left: 1330px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 800px; left: 760px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 600px; left: 760px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 800px; left: 950px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 600px; left: 950px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 800px; left: 1140px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 800px; left: 1330px; width: 10px; height: 156px;"></div>
+        <div class="linea" style="top: 600px; left: 1140px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 400px; left: 1330px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 400px; left: 1520px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 600px; left: 1520px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 800px; left: 1520px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 600px; left: 1710px; width: 10px; height: 200px;"></div>
+        <div class="linea" style="top: 400px; left: 1520px; width: 200px; height: 10px;"></div>
+        <div class="linea" style="top: 400px; left: 1710px; width: 180px; height: 10px;"></div>
+        <div class="linea" style="top: 200px; left: 1520px; width: 200px; height: 10px;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
